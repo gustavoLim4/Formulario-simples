@@ -1,0 +1,68 @@
+/* max 600 */
+@media (max-width: 600px) {
+    body {
+        background: rgb(135, 155, 255);
+        background: radial-gradient(circle, rgba(135, 155, 255, 1) 0%, rgba(203, 131, 255, 1) 100%);
+    }
+
+    .fundo h2 {
+        color: #9fafff;
+
+    }
+
+    .fundo {
+        width: 160%;
+        margin-left: 90%;
+        border: 7px solid #8fa1fe;
+        margin-top: 20%;
+    }
+
+    .form-floating>.form-control,
+    .form-floating>.form-control-plaintext {
+        width: 75%;
+
+    }
+
+    .mb-3 textarea {
+
+        width: 75%;
+
+    }
+
+    .form-select {
+
+        width: 75%;
+
+    }
+
+    .data label {
+        width: 57%;
+        padding: 7px 1px 7px 9px;
+        border: 1px solid #9fafff;
+
+    }
+
+    .data input {
+        width: 57%;
+    }
+
+    .data {
+
+        margin-left: 42%;
+
+    }
+
+    .row img {
+        border: 2px solid #6b83ff;
+        width: 56%;
+        margin-left: 10%;
+    }
+
+    .row label {
+
+        margin-left: 60px;
+
+    }
+
+
+}

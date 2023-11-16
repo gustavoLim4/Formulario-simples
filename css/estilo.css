@@ -26,14 +26,17 @@ body {
     border-radius: 10px;
     border: 6px solid #a1cdff;
     width: 70%;
+    margin-top: 5%;
 }
+
 .fundo h2 {
     text-align: center;
     margin-bottom: 4%;
     font-size: 1.9em;
     color: #a1cdff;
-    
+
 }
+
 form {
     margin-left: 20%;
 }
@@ -41,25 +44,31 @@ form {
 .mb-3 textarea {
     resize: none;
     width: 70%;
- 
+    cursor: pointer;
+
 }
 
-.form-floating>.form-control, .form-floating>.form-control-plaintext {
-   
+.form-floating>.form-control,
+.form-floating>.form-control-plaintext {
+
     width: 70%;
+    cursor: pointer;
 }
 
 .form-select {
 
     padding: 11px;
     width: 70%;
+    cursor: pointer;
 }
-.data input{
+
+.data input {
     border-radius: 5px;
     padding: 5px 5px 8px 10px;
     border: none;
     border: 1px solid #d6d6d6;
     width: 43%;
+    cursor: pointer;
 }
 
 .data label {
@@ -69,6 +78,7 @@ form {
     width: 43%;
     padding: 3px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .data {
@@ -77,12 +87,40 @@ form {
     margin-top: 20px;
     margin-left: 47%;
     margin-bottom: 35px;
-    
+
 
 }
 
+.row img {
+    border: 2px solid #c9e2ff;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 140%;
+    max-width: 140%;
+    margin-left: 40%;
+}
+
+.row label {
+    font-weight: bold;
+    margin-top: 20px;
+    width: 196%;
+    max-width: 190%;
+    font-size: 1.5em;
+    margin-left: 74px;
+    cursor: pointer;
+}
+
 .btn {
-    margin-top: 10%;
-    margin-left: 27%;
-    width: 50%;
+    margin-top: 5%;
+    margin-left: 5.1%;
+    width: 60%;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+}
+
+.btn button {
+    padding: 10px;
 }
